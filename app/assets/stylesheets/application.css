@@ -13,3 +13,18 @@
  *= require_tree .
  *= require_self
  */
+body  {
+    background: url("van.jpg") no-repeat;
+    background-size: cover;
+}
+
+
+.navbar-default .navbar-nav {
+    font-family: 'Yatra One', cursive;
+    color: #008fb3;
+    font-size: 16px;
+}
+
+p  {color: #331a00;
+    font-size: 18px;
+}

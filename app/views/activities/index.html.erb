@@ -1,7 +1,13 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Fun Activities For Nature Lovers</h1>
+<h1>Be a Pathfinder!</h1>
+  <p>Check out these exciting activities for your next adventure</p>
 
+<% @images.each do |pic| %>
+  <%= image_tag pic, height: 300, width: 400 %>
+<% end %>
+
+<% link_to activities_path %>
 <table>
   <thead>
     <tr>

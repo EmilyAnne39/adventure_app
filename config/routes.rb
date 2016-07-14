@@ -1,9 +1,14 @@
 Rails.application.routes.draw do
   resources :activities
   resources :states
+  
   get 'ilovetocode' => 'welcome#index'
 
-  get 'homepage' => 'welcome#about'
+  get 'about' => 'welcome#about'
+  
+  get 'contact' => 'welcome#contact'
+  
+  
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
